@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Assistant&family=Ephesis&family=Martel+Sans&family=Poppins&family=Saira+Extra+Condensed&family=Space+Grotesk&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(193, 251, 231);
+}
+form{
+    height: 250px;
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    padding: 26px;
+    border-radius: 8px;
+    margin: 12px;
+}
+#username{
+    height: 44px;
+    width: 300px;
+    margin: 8px;
+    text-align: center;
+}
+#eye{
+    cursor: pointer;
+}
+#password{
+    border: 0;
+    outline: 0;
+}
+.pw-container{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 300px;
+    border: 1px solid;
+    align-items: center;
+    margin: 4px 0 0 8px;
+    padding: 1rem 1rem 1rem 6.5rem;
+}
+#btn{
+    height: 40px;
+    width: 300px;
+    margin: 8px 0 0 8px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+label{
+    margin: 0 0 0 8px;
+
+}
